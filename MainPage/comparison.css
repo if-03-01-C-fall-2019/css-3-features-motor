@@ -87,10 +87,13 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+
 }
 
 tr:nth-child(even) {
   background-color:rgba(192,192,192,0.3);
+  animation: white-gray 2.5s linear;
+  animation-iteration-count: infinite;
 }
 
 .center{
@@ -121,4 +124,19 @@ tr:nth-child(even) {
 .end{
   position: absolute;
   top: 150%;
+}
+
+@keyframes white-gray{
+    100%,0%{
+      background-color: rgb(255,255,255,0.3);
+    }
+    25%,75%{
+      background-color: rgb(192,192,192,0.3);
+    }
+    50%{
+      background-color: rgb(169,169,169,0.3);
+    }
+    37.5%, 87.5%{
+      background-color: rgb(128,128,128,0.3);
+    }
 }
