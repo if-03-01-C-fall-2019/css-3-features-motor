@@ -22,12 +22,17 @@
 }
 
 .text{
-  max-width: 960px;
+  max-width: 1260px;
   margin: auto;
   margin-bottom: 50px;
 }
-.end{
+.end-combustion{
   position: absolute;
   color: rgb(255,255,255,0);
-  top: 180%;
+  top: 160%;
+}
+.end-electric{
+  position: absolute;
+  color: rgb(255,255,255,0);
+  top: 210%;
 }

@@ -69,7 +69,7 @@ nav ul li a{
   border-top: 10px solid rgb(255,255,255,0.7);
   border-bottom: 10px solid rgb(255,255,255,0.7);
   transition: background 1s;
-  transform: translate(30%,3%);
+  transform: translate(10%,3%);
 }
 .demo {
     position: relative;
