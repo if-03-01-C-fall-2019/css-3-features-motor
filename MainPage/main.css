@@ -1,4 +1,4 @@
-*{
+  *{
   margin: 0;
   padding: 0;
   font-family: "Century Gothic", sans-serif;
@@ -32,16 +32,18 @@ nav ul{
   float: right;
   margin-top: 0.95vh;
   margin-left: 0.25vh;
-  margin-right: 0.25vh;
+  margin-right: 1vh;
 }
 nav ul li{
+  border-radius: 5px;
+
   display: inline-block;
   transition: box-shadow 0.5s;
   padding: 0.4vh 2vh;
 }
 
 nav li:hover{
-  box-shadow: 0px 0px 0px 2px black inset;
+  box-shadow: 4px 4px 3px grey;
 }
 
 nav ul li a{
