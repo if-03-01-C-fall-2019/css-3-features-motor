@@ -1,3 +1,6 @@
+body{
+  background-image: url("comparisonbackground.jpg");
+}
 .title{
   position: absolute;
   top: 17%;

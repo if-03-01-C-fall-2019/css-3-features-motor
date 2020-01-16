@@ -1,3 +1,9 @@
+.combustion-background{
+  background-image: url("mbz-engine.jpg");
+}
+.electric-background{
+  background-image: url("teslabackgrond.jpg");
+}
 .title{
  text-align: center;
  margin: 50px;
