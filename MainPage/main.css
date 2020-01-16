@@ -5,7 +5,6 @@
 }
 
 body{
-  background-image: url("aboutbackground.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -28,4 +27,33 @@ body{
 }
 .comparison-background{
   background-image: url("comparisonbackground.jpg");
+}
+nav ul{
+  float: right;
+  margin-top: 0.95vh;
+  margin-left: 0.25vh;
+  margin-right: 0.25vh;
+}
+nav ul li{
+  display: inline-block;
+  transition: box-shadow 0.5s;
+  padding: 0.4vh 2vh;
+}
+
+nav li:hover{
+  box-shadow: 0px 0px 0px 2px black inset;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.logo img{
+  width:30vh;
+  position: relative;
+  top:0%;
+  right: 0%;
+  margin-left:0.7vh;
+  margin-top:0.7vh;
 }
