@@ -36,12 +36,12 @@ nav ul li a{
 }
 
 .logo img{
-  width:30vh;
+  width:10vh;
   position: relative;
   top:0%;
   right: 0%;
   margin-left:0.7vh;
-  margin-top:0.7vh;
+  margin-top:0.2vh;
 }
 .overlay{
   position: absolute;
