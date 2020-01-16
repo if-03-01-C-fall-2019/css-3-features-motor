@@ -28,6 +28,9 @@ body{
 .comparison-background{
   background-image: url("comparisonbackground.jpg");
 }
+.background{
+  background-image: url("s");
+}
 nav ul{
   float: right;
   margin-top: 0.95vh;
@@ -58,4 +61,22 @@ nav ul li a{
   right: 0%;
   margin-left:0.7vh;
   margin-top:0.7vh;
+}
+.overlay{
+  position: absolute;
+  background: hsla(0,0%,0%,0.5);
+  color: white;
+  border-top: 10px solid rgb(255,255,255,0.7);
+  border-bottom: 10px solid rgb(255,255,255,0.7);
+  transition: background 1s;
+  transform: translate(30%,3%);
+}
+.demo {
+    position: relative;
+    margin: 1em auto;
+}
+.over:hover {
+  background: hsla(0,0%,0%,0.7);
+  border-top: 10px solid rgb(255,255,255,1);
+  border-bottom: 10px solid rgb(255,255,255,1);
 }

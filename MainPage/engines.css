@@ -1,27 +1,9 @@
-.overlay{
-  position: absolute;
-  background: #BE1E3C;
-  background: hsla(350,50%,50%,0.3);
-  color: white;
-  border-top: 8px solid white;
-  border-bottom: 8px solid white;
-  transition: background 1s;
-  transform: translate(30%,3%);
-}
-.demo {
-    position: relative;
-    margin: 1em auto;
-}
-.over:hover {
-  background: hsla(350,50%,50%,0.9)
-}
 .title{
  text-align: center;
  margin: 50px;
 }
 
 .title > h1{
-  color: black;
   font-size: 70px;
 }
 
