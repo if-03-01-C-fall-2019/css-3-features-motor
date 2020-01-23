@@ -1,8 +1,8 @@
 .combustion-background{
-  background-image: url("Img/bmw.jpg");
+  background-image: url("../Img/bmw.jpg");
 }
 .electric-background{
-  background-image: url("Img/model3.png");
+  background-image: url("../Img/model3.png");
 }
 .title{
  text-align: center;
