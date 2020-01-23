@@ -36,12 +36,12 @@
   position: absolute;
   transform: translate(-30%);
   color: rgb(255,255,255,0);
-  top: 160%;
+  top: 168%;
 }
 .end-electric{
   position: absolute;
   color: rgb(255,255,255,0);
-  top: 210%;
+  top: 218%;
 }
 .overlay{
   position: relative;
