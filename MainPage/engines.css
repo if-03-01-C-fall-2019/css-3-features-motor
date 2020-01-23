@@ -1,8 +1,8 @@
 .combustion-background{
-  background-image: url("mbz-engine.jpg");
+  background-image: url("bmw.jpg");
 }
 .electric-background{
-  background-image: url("teslabackgrond.jpg");
+  background-image: url("model3.png");
 }
 .title{
  text-align: center;
@@ -28,12 +28,13 @@
 }
 
 .text{
-  max-width: 1260px;
+  max-width: 1160px;
   margin: auto;
   margin-bottom: 50px;
 }
 .end-combustion{
   position: absolute;
+  transform: translate(-30%);
   color: rgb(255,255,255,0);
   top: 160%;
 }
@@ -41,4 +42,10 @@
   position: absolute;
   color: rgb(255,255,255,0);
   top: 210%;
+}
+.overlay{
+  position: relative;
+  margin: auto;
+  max-width: 1160px;
+
 }
