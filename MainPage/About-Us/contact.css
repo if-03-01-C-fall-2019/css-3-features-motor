@@ -1,5 +1,5 @@
 body{
-  background-image: url("Img/aboutbackground.jpg");
+  background-image: url("../Img/comparisonbackground.jpg");
 }
 .title{
   position: absolute;
@@ -8,24 +8,11 @@ body{
   transform: translate(-50%,-50%);
 }
 
-
 .title > h1{
   color: black;
   font-size: 70px;
 }
 
-.text{
-  position: absolute;
-  top: 35%;
-  left: 30%;
-  transform: translate(-35%,-25%);
-}
-.text > p{
-  font-size: 20px;
-}
-.text > h2{
-  font-size: 30px;
-}
 .button{
   position: absolute;
   top: 60%;
@@ -43,4 +30,13 @@ body{
 
 .btn:hover{
   box-shadow: 0px 0px 0px 2px black inset;
+}
+.text{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: 20px;
+}
+.text > h2{
+  font-size: 30px;
 }
