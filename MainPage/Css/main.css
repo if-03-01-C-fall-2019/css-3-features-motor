@@ -47,23 +47,3 @@ nav ul li a{
   margin-left:0.7vh;
   margin-top:0.2vh;
 }
-.overlay{
-  position: absolute;
-  background: hsla(0,0%,0%,0.5);
-  color: white;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-top: 10px solid rgb(255,255,255,0.7);
-  border-bottom: 10px solid rgb(255,255,255,0.7);
-  transition: background 1s;
-  transform: translate(10%,3%);
-}
-.demo {
-    position: relative;
-    margin: 1em auto;
-}
-.over:hover {
-  background: hsla(0,0%,0%,0.7);
-  border-top: 10px solid rgb(255,255,255,1);
-  border-bottom: 10px solid rgb(255,255,255,1);
-}
